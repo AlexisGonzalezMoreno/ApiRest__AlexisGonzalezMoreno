@@ -1,8 +1,7 @@
-package com.example.Ejercicio4.config;
+package com.example.ApiRest_AlexisGonzalezMoreno.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import springfox.documentation.RequestHandler;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
@@ -10,9 +9,7 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
-import java.util.Collection;
 import java.util.Collections;
-import java.util.Locale;
 
 @Configuration
 public class SwaggerConfig {
@@ -29,13 +26,12 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiDetails(){
-        return new ApiInfo("Spring Boot Laptop API REST",
-                "Library Api rest docs",
+        return new ApiInfo("API Rest First Commit",
+                "Esquema de la API Rest",
                 "1.0",
-                "http://www.google.com",
-                new Contact("Alexis", "http://www.google.com", "alexis@mail.com"),
-                "MIT",
-                "http://www.google.com",
+                "www.google.com",
+                new Contact("Alexis", "www.google.com", "alexis@mail.com"),
+                "MIT", "www.google.com",
                 Collections.emptyList());
     }
 }

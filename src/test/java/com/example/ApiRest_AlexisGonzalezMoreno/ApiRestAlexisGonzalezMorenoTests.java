@@ -1,10 +1,10 @@
-package com.example.Ejercicio4;
+package com.example.ApiRest_AlexisGonzalezMoreno;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Ejercicio4ApplicationTests {
+class ApiRestAlexisGonzalezMorenoTests {
 
 	@Test
 	void contextLoads() {
